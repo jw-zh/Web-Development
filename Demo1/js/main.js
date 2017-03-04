@@ -7,5 +7,6 @@ function main() {
     $(this).toggleClass('active');
     $(this).text('Projects Viewed');
   });
+  $('.projects-button').css('cursor', 'pointer');
 }
 $(document).ready(main);
